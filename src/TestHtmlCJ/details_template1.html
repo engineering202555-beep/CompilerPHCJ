@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>تفاصيل المنتج</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+        .product {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            display: flex;
+            gap: 15px;
+        }
+        img {
+            width: 120px;
+        }
+        a, button {
+            padding: 6px 10px;
+            text-decoration: none;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .details { background: blue; }
+        .delete { background: red; }
+        .add { background: green; margin-bottom: 20px; display: inline-block; }
+
+    </style>
+
+</head>
+<body>
+
+<div class="product">
+    <img src="{{ product.image }}">
+    <div>
+        <h2>{{ product.name }}</h2>
+        <p>السعر: {{ product.price }}$</p>
+        <p>{{ product.details }}</p>
+        <a class="details" href="{{ url_for() }}">⬅ رجوع</a>
+    </div>
+</div>
+
+</body>
+</html>
