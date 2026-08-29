@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>إضافة منتج</title>
+
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+
+<h2>➕ إضافة منتج</h2>
+
+<form method="post"    action="{{url_for('add_product_page')}}" >
+    <input name="name" placeholder="اسم المنتج" ><br><br>
+    <input name="price" type="number" placeholder="السعر" ><br><br>
+    <input name="image" placeholder="رابط الصورة" ><br><br>
+    <textarea name="details" placeholder="التفاصيل"></textarea><br><br>
+    <button class="add">إضافة</button>
+</form>
+
+<a class="details" href="{{ url_for('index') }}">⬅ رجوع</a>
+
+</body>
+</html>

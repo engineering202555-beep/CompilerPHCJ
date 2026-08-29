@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>تفاصيل المنتج</title>
+
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+
+<div class="products">
+    <img src="{{ product.image }}">
+    <div>
+        <h2>{{ product.name }}</h2>
+        <p>السعر: {{ product.price }}$</p>
+        <p>{{ product.details }}</p>
+        <a class="details" href="{{ url_for('index') }}">⬅ رجوع</a>
+    </div>
+</div>
+
+</body>
+</html>
