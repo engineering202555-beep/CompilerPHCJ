@@ -1,3 +1,0 @@
-def wrong_syntax(x):
-    if x > 5  # خطأ هنا: نسينا علامة الـ ':'
-    return x

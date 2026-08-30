@@ -1,6 +1,0 @@
-def add(a, b):
-    return a + b
-
-def use_add():
-    result = add(1, 2, 3)
-    return result

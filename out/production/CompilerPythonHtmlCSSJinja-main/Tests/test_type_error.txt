@@ -1,3 +1,0 @@
-def show_price():
-    price = 100
-    price()
