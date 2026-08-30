@@ -1,0 +1,6 @@
+def calculate_price(amount):
+    tax = 0.15
+    if amount > 100:
+        return amount * tax
+    else:
+        return 0

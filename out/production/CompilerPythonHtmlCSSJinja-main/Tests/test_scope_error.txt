@@ -1,0 +1,5 @@
+def set_value():
+    local_var = 10
+
+def show_value():
+    print(local_var)

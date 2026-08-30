@@ -1,0 +1,28 @@
+Generation started at: 2026-08-30T13:38:43.349430900
+Generation started at: 2026-08-30T13:38:43.349931800
+Python source: C:\Users\USER\Desktop\CompilerPythonHtmlCSSJinja-main\src\Tests\test1.txt
+Extracted routes: {index=/, product_details=/product/<int:product_id>, add_product_page=/add, delete_product=/delete/<int:product_id>}
+Extracted context keys: [app, product, products]
+
+TEMPLATE: products_template.html
+  input:  C:\Users\USER\Desktop\CompilerPythonHtmlCSSJinja-main\src\TestHtmlCJ\products_template.html
+  output: C:\Users\USER\Desktop\CompilerPythonHtmlCSSJinja-main\output\index.html
+  semantic errors: 0
+  remaining Jinja syntax ({{ or {%) in output: false
+
+TEMPLATE: add_product_template.html
+  input:  C:\Users\USER\Desktop\CompilerPythonHtmlCSSJinja-main\src\TestHtmlCJ\add_product_template.html
+  output: C:\Users\USER\Desktop\CompilerPythonHtmlCSSJinja-main\output\add_product.html
+  semantic errors: 0
+  remaining Jinja syntax ({{ or {%) in output: false
+
+TEMPLATE: details_template.html
+  input:  C:\Users\USER\Desktop\CompilerPythonHtmlCSSJinja-main\src\TestHtmlCJ\details_template.html
+  output: C:\Users\USER\Desktop\CompilerPythonHtmlCSSJinja-main\output\edit_product.html
+  semantic errors: 0
+  remaining Jinja syntax ({{ or {%) in output: false
+
+Primary app.py not found; copied fallback C:\Users\USER\Desktop\CompilerPythonHtmlCSSJinja-main\src\Tests\test1.txt -> C:\Users\USER\Desktop\CompilerPythonHtmlCSSJinja-main\output\app.py
+Copied supporting file: C:\Users\USER\Desktop\CompilerPythonHtmlCSSJinja-main\src\TestHtmlCJ\Style.css -> C:\Users\USER\Desktop\CompilerPythonHtmlCSSJinja-main\output\Style.css
+Supporting file not found (skipped, not generated): script.js
+Generation finished at: 2026-08-30T13:38:43.414062300

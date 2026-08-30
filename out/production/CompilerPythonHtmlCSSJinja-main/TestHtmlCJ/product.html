@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>المنتجات</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+        .product {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            display: flex;
+            gap: 15px;
+        }
+        img {
+            width: 120px;
+        }
+        a, button {
+            padding: 6px 10px;
+            text-decoration: none;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .details { background: blue; }
+        .delete { background: red; }
+        .add { background: green; margin-bottom: 20px; display: inline-block; }
+    </style>
+
+</head>
+<body>
+
+<h1>🛒 المنتجات</h1>
+
+<a class="add" href="{{ url_for('add_product_page') }}">➕ إضافة منتج</a>
+
+{% for p in products %}
+<div class="product">
+    <img src="{{ p.image }}">
+    <div>
+        <h3>{{ p.name }}</h3>
+        <p>السعر: {{p.price|upper  }}</p>
+
+        <a class="details" href="{{ url_for('product_details', product_id=p.id) }}">تفاصيل</a>
+
+        <form method="post"
+              action="{{ url_for('delete_product', product_id=p.id) }}"
+              style="display:inline;">
+            <button class="delete">حذف</button>
+        </form>
+    </div>
+</div>
+{% endfor %}
+
+</body>
+</html>
