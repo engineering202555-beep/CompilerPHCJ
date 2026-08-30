@@ -1,0 +1,28 @@
+Generation started at: 2026-08-30T16:11:35.270591200
+Generation started at: 2026-08-30T16:11:35.270591200
+Python source: C:\CompilerFinish\CompilerPythonHtmlCSSJinja-main\src\Tests\test1.txt
+Extracted routes: {index=/, product_details=/product/<int:product_id>, add_product_page=/add, delete_product=/delete/<int:product_id>}
+Extracted context keys: [app, product, products]
+
+TEMPLATE: products_template.html
+  input:  C:\CompilerFinish\CompilerPythonHtmlCSSJinja-main\src\TestHtmlCJ\products_template.html
+  output: C:\CompilerFinish\CompilerPythonHtmlCSSJinja-main\output\index.html
+  semantic errors: 0
+  remaining Jinja syntax ({{ or {%) in output: false
+
+TEMPLATE: add_product_template.html
+  input:  C:\CompilerFinish\CompilerPythonHtmlCSSJinja-main\src\TestHtmlCJ\add_product_template.html
+  output: C:\CompilerFinish\CompilerPythonHtmlCSSJinja-main\output\add_product.html
+  semantic errors: 0
+  remaining Jinja syntax ({{ or {%) in output: false
+
+TEMPLATE: details_template.html
+  input:  C:\CompilerFinish\CompilerPythonHtmlCSSJinja-main\src\TestHtmlCJ\details_template.html
+  output: C:\CompilerFinish\CompilerPythonHtmlCSSJinja-main\output\details_product.html
+  semantic errors: 0
+  remaining Jinja syntax ({{ or {%) in output: false
+
+Primary app.py not found; copied fallback C:\CompilerFinish\CompilerPythonHtmlCSSJinja-main\src\Tests\test1.txt -> C:\CompilerFinish\CompilerPythonHtmlCSSJinja-main\output\app.py
+Copied supporting file: C:\CompilerFinish\CompilerPythonHtmlCSSJinja-main\src\TestHtmlCJ\Style.css -> C:\CompilerFinish\CompilerPythonHtmlCSSJinja-main\output\Style.css
+Supporting file not found (skipped, not generated): script.js
+Generation finished at: 2026-08-30T16:11:35.372441500

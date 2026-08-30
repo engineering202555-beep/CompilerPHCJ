@@ -1,0 +1,20 @@
+================================================
+FILE: C:\CompilerFinish\CompilerPythonHtmlCSSJinja-main\src\Tests\test1.txt
+================================================
+No semantic errors found.
+
+================================================
+FILE: products_template.html
+================================================
+No semantic errors found.
+
+================================================
+FILE: add_product_template.html
+================================================
+No semantic errors found.
+
+================================================
+FILE: details_template.html
+================================================
+No semantic errors found.
+
